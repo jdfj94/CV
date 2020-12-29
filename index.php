@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@
                 <i class='bx bx-menu'></i>
             </div>
 
-            <div>
+            <div class="div-menu-superior">
                 <a href="#" class="nav__logo">José David</a>
             </div>
 
@@ -53,7 +53,7 @@
         <div class="home__container bd-grid">
             <div class="home__data">
                 <div class="home__img">
-                    <img src="Imágenes de prueba/feo.jpg" alt="Foto de perfil José David">
+                    <img src="Imágenes de prueba/foto-perfil.jpg" alt="Foto de perfil José David">
                 </div>
 
                 <h1 class="home__title">José David Frías Jiménez</h1>
@@ -81,7 +81,7 @@
                         </div>
                     </div>
 
-                    <a download="" href="https://www.linkedin.com/in/jos%C3%A9-david-fr%C3%ADas-jim%C3%A9nez/"
+                    <a download="" target="blank" href="Imágenes de prueba/CV José David Frías Jiménez Enero 2021.pdf"
                         class="button home__button">Descargar CV</a>
 
                 </div>
@@ -95,7 +95,7 @@
             <div class="experiencia__container bd-grid">
 
                 <div class="experiencia__1">
-                    <img src="Imágenes de prueba/1mib.jpg" alt="logo 1mib">
+                    <img class="experiencia__1-1-imagen" src="Imágenes de prueba/1mib.png" alt="logo 1mib">
                     <span>
                         <h3 class="experiencia__1-titulo">Desarrollo de negocios digitales en una incubadora de
                             proyectos</h3>
@@ -118,7 +118,7 @@
             <div class="experiencia__container bd-grid">
 
                 <div class="experiencia__1 experiencia__2">
-                    <img class="experiencia__1-imagen" src="Imágenes de prueba/cajasiete.jpg" alt="logo cajasiete">
+                    <img class="experiencia__1-imagen" src="Imágenes de prueba/cajasiete.png" alt="logo cajasiete">
                     <span>
                         <h3 class="experiencia__1-titulo">Desarrollo de negocios digitales en una incubadora de
                             proyectos</h3>
@@ -175,7 +175,7 @@
 
                     <div class="licencias__pack">
                         <div class="licencias__bloque">
-                            <img class="logo__licencias" src="Imágenes de prueba/semrush.jpg" alt="logo semrush">
+                            <img class="logo__licencias" src="Imágenes de prueba/semrush.png" alt="logo semrush">
                             <div class="licencias_div">
                                 <p class="licencia-titulo">Certificado de la herramienta SEMRush</p>
                                 <p class="p-licencias">Fecha de expedición: noviembre 2020</p>
@@ -183,7 +183,7 @@
                         </div>
 
                         <div class="licencias__bloque">
-                            <img class="logo__licencias" src="Imágenes de prueba/logo-google.jpg" alt="logo Google">
+                            <img class="logo__licencias" src="Imágenes de prueba/logo-google.png" alt="logo Google">
                             <div class="licencias_div">
                                 <p class="licencia-titulo">Certificación en Search Ads de Google</p>
                                 <p class="p-licencias">Fecha de expedición: junio 2020</p>
@@ -191,7 +191,7 @@
                         </div>
 
                         <div class="licencias__bloque">
-                            <img class="logo__licencias" src="Imágenes de prueba/logo-google.jpg" alt="logo Google">
+                            <img class="logo__licencias" src="Imágenes de prueba/logo-google.png" alt="logo Google">
                             <div class="licencias_div">
                                 <p class="licencia-titulo">Certificación en Display Ads de Google</p>
                                 <p class="p-licencias">Fecha de expedición: junio 2020</p>
@@ -199,7 +199,7 @@
                         </div>
 
                         <div class="licencias__bloque">
-                            <img class="logo__licencias" src="Imágenes de prueba/udemy.jpg" alt="logo Udemy">
+                            <img class="logo__licencias" src="Imágenes de prueba/udemy.png" alt="logo Udemy">
                             <div class="licencias_div">
                                 <p class="licencia-titulo">Curso avanzado de HTML y CSS Udemy</p>
                                 <p class="p-licencias">Fecha de expedición: junio 2020</p>
@@ -248,7 +248,7 @@
 
                 <a href="https://www.reconocimientostegueste.com/" target="blank"><div class="trabajos__data">
                     <span class="trabajos__titulo">Centro de reconocimientos</span>
-                    <span class="trabajos__descripcion">Rediseño de sitio web, cambio de hosting... Alta de Google my
+                    <span class="trabajos__descripcion">Rediseño de sitio web, alta de Google my
                         Business y creación de campañas de Ads con altos retornos. </span>
                     <i class='bx bx-link-alt trabajos__link'></i>
                     </div>
