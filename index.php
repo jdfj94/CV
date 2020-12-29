@@ -53,7 +53,7 @@
         <div class="home__container bd-grid">
             <div class="home__data">
                 <div class="home__img">
-                    <img src="Imágenes de prueba/foto-perfil.jpg" alt="Foto de perfil José David">
+                    <img src="Imágenes de prueba/feo.jpg" alt="Foto de perfil José David">
                 </div>
 
                 <h1 class="home__title">José David Frías Jiménez</h1>
