@@ -246,7 +246,7 @@
     }
 
     .home__img img{
-        width: 185px;
+        width: 585px;
     }
 
     .home__title{
@@ -325,6 +325,12 @@
         align-items: center;
     }
 
+    .experiencia__1-1-imagen{
+        height: 60px;
+        width: auto;
+        margin-right: 15px;
+    }
+
     .experiencia__1-imagen{
         width: 100px;
         height: 100px;
@@ -366,6 +372,7 @@
 
     .experiencia__2{
         margin-bottom: 0;
+        margin-right: 15px;
     }
 
     /* ---- EDUCATION ---- */
