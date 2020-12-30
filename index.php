@@ -17,7 +17,7 @@
 
 <body>
 
-    <!------- HEADER -------->
+    <!------- HEADER --------> 
 
     <header class="header-1">
         <nav class="nav bd-grid">
