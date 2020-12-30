@@ -78,7 +78,7 @@
                         <div>
                             <a href="https://www.linkedin.com/in/jose-david-frias-jimenez/" target="blank"
                                 class="home__social-link"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://github.com/jdfj94?tab=repositories" target="blank"
+                            <a href="https://github.com/jdfj94" target="blank"
                                 class="home__social-link"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
