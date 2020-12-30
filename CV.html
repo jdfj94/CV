@@ -49,7 +49,7 @@
 
 
         <!------- HOME -------->
-        <section class="home" id="principal"></section>
+        <section class="home" id="principal">
         <div class="home__container bd-grid">
             <div class="home__data">
                 <div class="home__img">
@@ -89,6 +89,7 @@
                 </div>
             </div>
         </div>
+    </section>
 
         <!------- EXPERIENCIA -------->
         <section class="experiencia section" id="experiencia">
@@ -250,8 +251,8 @@
 
                 <a href="https://www.reconocimientostegueste.com/" target="blank"><div class="trabajos__data">
                     <span class="trabajos__titulo">Centro de reconocimientos</span>
-                    <span class="trabajos__descripcion">Rediseño de sitio web, alta de Google my
-                        Business y creación de campañas de Ads con altos retornos. </span>
+                    <span class="trabajos__descripcion">Diseño web, alta en Google my
+                        Business y campañas de Ads rentables. </span>
                     <i class='bx bx-link-alt trabajos__link'></i>
                     </div>
                 </a>
@@ -269,6 +270,32 @@
                 </a>
             </div>
             </div>
+
+        </section>
+
+        <!------- MAQUETACIONES -------->
+
+        <section class="section maquetaciones">
+            <h2 class="section-title">Maquetaciones en HTML y CSS</h2>
+
+            <p class="texto-maquetaciones">Portfolio de diseños en HTML y CSS</p>
+
+            <div class="maquetaciones__container bd-grid">
+
+                <div class="maquetaciones__img">
+                    <div class="div-img-maquetaciones">
+                    <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="Proyecto alex photographer">
+                    
+
+                    <a href="https://www.alxphotographer.com/" target="blank">
+                        <div class="maquetaciones__data">
+                            <i class='bx bx-link-external maquetaciones__link'></i>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div> 
+
 
         </section>
 
