@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!------- CSS -------->
-    <link rel="stylesheet" href="CV.css">
+    <link rel="stylesheet" href="Css/CV.css">
 
     <!------- BOX ICONS -------->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -17,7 +17,7 @@
 
 <body>
 
-    <!------- HEADER --------> 
+    <!------- HEADER -------->
 
     <header class="header-1">
         <nav class="nav bd-grid">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
 
-                    <a download="" target="blank" href="Imágenes de prueba/CV_Jose_David_Frias_Jimenez_Enero_2021.pdf"
+                    <a download="" target="blank" href="Descargas/CV José David Frías Jiménez Enero 2021.pdf"
                         class="button home__button">Descargar CV</a>
 
                 </div>
@@ -332,7 +332,7 @@
 
 
     <!------- JS PRINCIPAL -------->
-    <script src="CV.js"></script>
+    <script src="Js/CV.js"></script>
 
 
 </body>
