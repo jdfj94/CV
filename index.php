@@ -78,10 +78,12 @@
                         <div>
                             <a href="https://www.linkedin.com/in/jose-david-frias-jimenez/" target="blank"
                                 class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/jdfj94?tab=repositories" target="blank"
+                                class="home__social-link"><i class='bx bxl-github'></i></a>
                         </div>
                     </div>
 
-                    <a download="" target="blank" href="Imágenes de prueba/CV José David Frías Jiménez Enero 2021.pdf"
+                    <a download="" target="blank" href="Imágenes de prueba/CV_Jose_David_Frias_Jimenez_Enero_2021.pdf"
                         class="button home__button">Descargar CV</a>
 
                 </div>
