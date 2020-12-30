@@ -287,7 +287,7 @@
                     <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="Proyecto alex photographer">
                     
 
-                    <a href="https://www.alxphotographer.com/" target="blank">
+                    <a href="https://maquetasjdfj.herokuapp.com/" target="blank">
                         <div class="maquetaciones__data">
                             <i class='bx bx-link-external maquetaciones__link'></i>
                         </div>
