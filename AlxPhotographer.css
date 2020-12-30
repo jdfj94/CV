@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------ VARIABLES CSS ------ */
+
+:root{
+    --altura-cabecera: 6rem;
+
+    /* ---- FONT-WEIGHT ---- */
+    --font-medio: 500;
+    --font-semi-negrita: 600;
+    --font-negrita: 700;
+
+    /* ---- COLORS ---- */
+    --color-texto: #54423D;
+    --primer-color-ligero: #eae7e6;
+    --primer-color-mas-ligero: #fffafa;
+    --color-boton: #B8A184;
+    --color-boton-hover: #f0ad4e;
+    --fondo-section-gris: #E8E8E8;
+
+    /* ---- TAMAÑO Y TIPOGRAFIA ---- */
+    --body-font: "Catamaran", sans-serif;
+    --h1-tipografia: "Dawning of a New Day";
+    --h1-font-size: 93px;
+    --h2-font-size: 35px;
+    --h3-font-size: 26px;
+
+    /* ---- MARGENES ---- */
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+
+    /* ---- Z-INDEX ---- */
+    --z-fized: 100;
+
+}
+
+    /* ---- BASE ---- */
+    ::before, ::after{
+        box-sizing: border-box;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    body{
+        font-weight: 400;
+        font-family: "Catamaran" sans-serif;
+        font-size: 19px;
+        line-height: 1.6;
+        color: var(--color-texto);
+    }
+
+    h1{
+        font-family: var(--h1-tipografia);
+        font-size: 93px;
+        font-weight: 600;
+    }
+
+    h2{
+        font-size: 35px;
+        font-family: "Catamaran" sans-serif;
+        font-weight: 600;
+    }
+
+    h3{
+        font-size: 26px;
+        font-family: "Catamaran" sans-serif;
+        font-weight: 500;
+    }
+
+    h1,h2,h3,p{
+        margin: 0;
+    }
+
+
+    /* ---- CLASES CSS ---- */
+
+    .main{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        height: calc(100vh - var(--altura-cabecera));
+        overflow: hidden;
+    }
+    
+    .seccion{
+        margin: 4rem 0 4rem;
+    }
+
+    .bloque-contenido{
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 4px 0 4px;
+
+    }
+
+    .seccion-titulo{
+        font-family: var(--h1-tipografia);
+        font-weight: 600;
+        font-size: var(--h1-font-size);
+        text-align: center;
+        margin: 3rem 0 3rem;
+        color: white;
+    }
+
+    .seccion-subtitulo{
+        margin: 20px;
+        font-family: "Catamaran";
+        font-weight: 400;
+        font-size: 23px;
+        text-align: center;
+        margin: 1.5rem 0 1.5rem;
+        color: white;
+    }
+
+    .seccion-h2{
+        margin: 2rem 0 2rem;
+        font-family: "Catamaran";
+        color: #4C4C4C;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 45px;
+    }
+
+    .div-columna{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-flex{
+        display: flex;
+        align-items: center;
+        margin: 1.5rem 0 1.5rem;
+    }
+
+    .div-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .div-gris{ 
+        background-color: rgb(230 229 229 / 62%);
+
+    }
+
+    .div-boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton{
+        background-color: var(--color-boton);
+        color: white; 
+        font-weight: 600;
+        font-size: 20px;
+        border: none;
+        border-radius: 6px;
+        transition: transform 0.5s;
+        display:inline;
+        text-align: center;
+        margin: 1rem;
+        padding: 0.8rem 2.2rem 0.8rem 2.2rem;
+    }
+
+    .boton:hover{
+        background-color: var(--color-boton-hover);
+        transform: scale(0.93);
+    }
+    
+
+
+    /* ---- NAV ---- */
+
+    .cabecera{
+        height: var(--altura-cabecera);
+        width: 100%;
+        background-color:#e0d5d5a6;
+        box-shadow: 0px 0px 4px 2px rgba(0,0,0,.1);
+    }
+    
+    .nav{
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin:auto;
+    }
+    
+    .menu-nav{
+        display:none;
+        font-size: 40px;
+        padding-right: 15px;
+    }
+
+    .div-logo{
+        height: var(--altura-cabecera);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    .div-nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+    
+    .nav-ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nav-item{
+        color: var(--color-texto);
+        font-weight: 700;
+        font-size: 20px;
+        margin-right: 40px;
+        font-family: "Catamaran";
+        cursor: pointer;
+     }
+        
+    .nav-item:hover{
+        text-decoration: underline;
+    }
+    
+    .icono-instagram{
+        font-size: 25px;
+    }
+
+
+
+    /* ---- PRINCIPAL ---- */
+
+    .principal{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        backface-visibility: hidden;
+        animation: principal 8s linear infinite 2s;
+        animation-timing-function: ease-in-out;
+        background-color: transparent;
+        background-image: url(Imágenes\ de\ prueba/home1.jpg);
+        overflow: hidden;
+    }
+
+
+    @keyframes principal {
+        0% {
+            background-image: url(Imágenes\ de\ prueba/home1.jpg);
+         
+            
+        }
+
+        50% {
+            background-image: url(Imágenes\ de\ prueba/home2.jpg);
+        
+        }
+    }
+
+
+    /* ---- QUIEN SOY ---- */
+
+    .div-quien-soy-flex{
+        width: 49%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .quien-es-alex{
+        border-radius: 25px;
+        margin: auto;
+    }
+
+
+   /* ---- PROYECTOS ---- */
+
+    .imagen-proyectos{
+        border-radius: 12px;
+        border: 3px solid white;
+        transition: transform 0.7s;
+        box-shadow: 0px 0px 7px 3px rgba(185, 180, 180, 0.466);
+        opacity: 0.7;
+    }
+
+    .div-proyectos-imagen{
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+    .imagen-proyectos:hover{
+        transform: scale(0.92);
+        opacity: 1;
+    }
+
+    .fondo-camara{
+        background-image: url(Imágenes\ de\ prueba/fondo-camara.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 23% auto;
+       
+    }
+
+    /* ---- FRASE ---- */
+
+    .frase{
+        width: 100%;
+        height: 500px;
+        background-image: url(Imágenes\ de\ prueba/fondo-alex.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.85;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .frase-alex{
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        width: 75%;
+        margin: auto;
+    }
+
+
+    /* ---- BLOG ---- */
+
+    .div-blog{
+        margin: 8px;
+        width: 33%;
+    }
+
+    .h3-blog{
+        color: #696969;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .h3-blog:hover{
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+
+    .img-blog{
+        border-radius: 8px;
+        margin-bottom: 18px;
+        transition: transform 0.7s
+    }
+
+    .img-blog:hover{
+        transform: scale(0.92);
+    }
+
+
+    .boton-blog{
+        border: 2px solid black;
+        padding: 8px 12px 8px 12px;
+        margin-top: 10px;
+    }
+
+    .boton-blog:hover{
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .fondo-blog{
+        background-image: url(Imágenes\ de\ prueba/fondo-noticias.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 23% auto;
+    }
+
+
+    /* ---- INSTAGRAM ---- */
+
+    .div-insta{
+        width: 30%;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .img-insta {
+        border-radius: 6px;
+    }
+
+    .div-insta:hover{
+        opacity: 0.5;
+        transition: 0.2s;
+    }
+
+    /* ---- BOTON SUBIR ---- */
+
+    .boton-subir{
+        font-size: 80px;
+        position: fixed;
+        bottom: 1px;
+        right: 25px;
+
+    }
+
+    /* ---- FOOTER ---- */
+
+    .footer{
+        width: 100%;
+        height: auto;
+        background-color: #3a3a3a;
+    }
+
+    .div-footer{
+        display: flex;
+        align-content: center;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .lista-footer{
+        display: flex;
+        width: 30%;
+        align-content: center;
+        justify-content: left;
+        padding-top: 2rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .ul-footer{
+        padding-left: 18px;
+    }
+
+    .item-footer{
+        color: white;
+        font-size: 19px;
+        padding-left: 15px;
+    }
+
+    .item-footer:hover{
+        color: #E4A241;
+        transition: 0,2s;
+    }
+
+
+    /* ---- MEDIA QUERYS ---- */
+
+    @media screen and (min-width: 481px) and (max-width: 766px){
+
+        .icono-instagram{
+            display:none;
+        }
+
+        .nav-item{
+        font-size: 19px;
+        margin-right: 20px;
+        }
+
+        .seccion-titulo{
+            font-size: 55px;
+        }
+
+        .seccion-subtitulo{
+            font-size: 20px;
+        }
+
+        .seccion-h2{
+            font-size: 35px;
+        }
+
+        .div-flex{
+            flex-wrap: wrap;
+        }
+
+        .div-quien-soy-flex{
+            width: 100%;
+        }
+
+        .fondo-camara{
+            background-size: 200px;
+        }
+
+        .fondo-blog{
+            background-size: 200px;
+        }
+
+        .frase-alex{
+            font-size: 22px;
+        }
+
+        .div-insta {
+            width: 100%;
+        }
+
+        .div-blog {
+            width: 100%;
+        }
+
+        .boton-subir{
+            font-size: 75px;
+        }
+
+        .div-footer {
+            flex-wrap: wrap;
+        }
+
+        .lista-footer{
+            width: 45%;
+        }
+
+    }
+
+
+    @media screen and (max-width: 480px){
+
+        .icono-instagram{
+            display:none;
+        }
+
+        .nav-item{
+            font-size: 15px;
+            margin-right: 15px;
+            }
+
+        .seccion-titulo{
+            font-size: 40px;
+        }
+
+        .seccion-subtitulo{
+            font-size: 19px;
+        }
+
+        .seccion-h2{
+            font-size: 32px;
+        }
+
+        .boton{
+            font-size: 16px;
+        }
+
+        .div-quien-soy-flex{
+            width: 80%;
+        }
+
+        .div-flex{
+            flex-wrap: wrap;
+        }
+
+        .div-quien-soy-flex{
+            width: 100%;
+        }
+
+        .fondo-camara{
+            background-size: 180px;
+        }
+
+        .fondo-blog{
+            background-size: 180px;
+        }
+
+        .frase-alex{
+            font-size: 20px;
+        }
+
+        .div-insta {
+            width: 100%;
+        }
+
+        .div-blog {
+            width: 100%;
+        }
+
+        .boton-subir{
+            font-size: 70px;
+        }
+
+        .div-footer {
+            flex-wrap: wrap;
+        }
+
+        .lista-footer{
+            width: 45%;
+        }
+
+
+    }
+
+
+
