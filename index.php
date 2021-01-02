@@ -96,7 +96,6 @@
         <section class="experiencia section" id="experiencia">
             <h2 class="section-title">Experiencia laboral</h2>
 
-            <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="">
 
             <div class="experiencia__container bd-grid">
 
@@ -142,7 +141,6 @@
         <section class="section educacion" id="educacion">
             <h2 class="section-title ">Estudios y formación</h2>
 
-            <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="">
 
             <div class="educacion__container bd-grid">
                 <div class="educacion__contenido">
