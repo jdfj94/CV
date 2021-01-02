@@ -96,9 +96,6 @@
         <section class="experiencia section" id="experiencia">
             <h2 class="section-title">Experiencia laboral</h2>
 
-            <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="Proyecto alex photographer">
-
-
             <div class="experiencia__container bd-grid">
 
                 <div class="experiencia__1">
