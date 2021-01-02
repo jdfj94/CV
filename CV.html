@@ -52,6 +52,9 @@
         <section class="home" id="principal">
         <div class="home__container bd-grid">
             <div class="home__data">
+
+                <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="">
+
                 <div class="home__img">
                     <img src="Imágenes de prueba/foto-perfil.jpg" alt="Foto de perfil José David">
                 </div>
