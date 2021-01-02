@@ -53,8 +53,6 @@
         <div class="home__container bd-grid">
             <div class="home__data">
 
-                <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="">
-
                 <div class="home__img">
                     <img src="Imágenes de prueba/foto-perfil.jpg" alt="Foto de perfil José David">
                 </div>
@@ -97,6 +95,8 @@
         <!------- EXPERIENCIA -------->
         <section class="experiencia section" id="experiencia">
             <h2 class="section-title">Experiencia laboral</h2>
+
+            <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="">
 
             <div class="experiencia__container bd-grid">
 
@@ -141,6 +141,8 @@
         <!------- EDUCACION -------->
         <section class="section educacion" id="educacion">
             <h2 class="section-title ">Estudios y formación</h2>
+
+            <img src="Imágenes de prueba/foto-maquetaciones.jpg" alt="">
 
             <div class="educacion__container bd-grid">
                 <div class="educacion__contenido">
