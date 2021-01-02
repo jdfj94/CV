@@ -220,6 +220,8 @@
         <section class="section proyectos" id="proyectos">
             <h2 class="section-title">Proyectos recientes</h2>
 
+            <p class="texto-maquetaciones">Estos son algunos de mis últimos proyectos</p>
+
             <div class="trabajos__container bd-grid">
 
                 <div class="trabajos__img">
