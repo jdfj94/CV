@@ -108,7 +108,7 @@
                 <p class="experiencia__1-fecha">Marzo 2019 - Actualidad</p>
                 <ul class="experiencia__1-parrafo">
                     <li>SEO (Inbound, analítica y CRO) y SEM (en buscadores y RRSS).</li>
-                    <li>CRM para la gestión de leads y cciones comerciales. </li>
+                    <li>CRM para la gestión de leads y acciones comerciales. </li>
                     <li>CRO en posts de Inbound y landings de captación.</li>
                     <li>Herramientas de Google. GA, GSC, GTM, DataStudio.</li>
                     <li>Herramientas externas de analítica de KWs y SEO: Ubersuggest, Keyword Surfer...</li>
